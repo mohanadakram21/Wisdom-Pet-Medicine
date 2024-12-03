@@ -1,0 +1,197 @@
+@import url('https://fonts.googleapis.com/css2?family=Open+Sans:wght@300;400;500&family=Roboto+Condensed:wght@300;400;700&display=swap');
+
+h2{
+	font-family: 'Roboto Condensed', sans-serif;
+  text-align: center;
+color: black;
+font-weight: 300;
+font-style: normal;
+font-size: 2rem;
+margin-bottom: 20px;
+}
+
+p{
+
+	font-family: 'Open Sans', sans-serif;
+	font-weight: 300;
+	font-style: normal;
+	font-size: 1rem;
+	color: rgb(0, 0, 0);
+}
+
+/*mission style*/
+#mission{
+	padding: 30px 0;
+border-top: 20px solid rgb(28, 6, 124);
+background-color: rgb(11, 6, 6);
+background-image: linear-gradient(270deg,rgb(0, 213, 255)0%, rgb(0, 213, 255)100%);
+background-image: linear-gradient(270deg,rgb(0, 213, 255)0%, rgb(0, 213, 255)100%);
+background-image: linear-gradient(270deg,rgb(0, 213, 255)0%, rgb(0, 213, 255)100%);
+background-image: linear-gradient(180deg,rgb(0, 213, 255)0%, rgb(0, 213, 255)100%);
+
+}
+
+
+
+
+#services img {
+	max-width: 80px;
+	margin-bottom: 10px;
+}
+
+#services{
+	padding: 30px 0;
+	background-color: blueviolet;
+background-image: -moz- linear-gradient(270deg,rgb(0,102,67)0%,rgb(0,102,67)100%);
+background-image: -webkit- linear-gradient(270deg,rgb(0,102,67)0%,rgb(0,102,67)100%);
+background-image: -o- linear-gradient(270deg,rgb(0,102,67)0%,rgb(0,102,67)100%);
+background-image: linear-gradient(180deg,rgb(0,102,67)0%,rgb(0,102,67)100%);
+
+}
+
+article{
+	text-align: center;
+	margin-bottom: 15px;
+}
+
+
+#staff img {
+	max-width: 100px;
+	border-radius: 50%;
+}
+
+#staff{
+            padding: 30px 0;
+background-color: antiquewhite;
+background-image: -moz- linear-gradient(270deg,rgb(255,288,196)0%,rgb(255,288,196)100%);
+background-image: -webkit- linear-gradient(270deg,rgb(255,288,196)0%,rgb(255,288,196)100%);
+background-image: -o- linear-gradient(270deg,rgb(255,288,196)0%,rgb(255,288,196)100%);
+background-image: linear-gradient(180deg,rgb(255,288,196)0%,rgb(255,288,196)100%);
+
+}
+
+#staff h3{
+
+	font-style: italic;
+	text-align: left;
+	font-weight: 700;
+ color: darkgoldenrod;
+}
+
+.doctor{
+	margin-bottom: 20px;
+}
+
+#janeh,#mcphersons,#johnb,#lorraines{
+	background-size: cover;
+	background-position-x: center;
+}
+
+#janeh{
+	background-image: url(../images/testimonial-janeh.jpg) ;
+}
+
+#mcphersons{
+	background-image: url(../images/testimonial-mcphersons.jpg);
+}
+
+#johnb{
+	background-image: url(../images/testimonial-johnb.jpg);
+}
+
+#lorraines{
+	background-image: url(../images/testimonial-lorraines.jpg);
+}
+
+#customer,#testimonials h2{
+	display: none;
+}
+blockquote{
+	min-height: 400px;
+	position: relative;
+}
+.quote{
+	position: absolute;
+	bottom: 0;
+	left: 0;
+	width: 80%;
+	background-color: blanchedalmond;
+	padding: 10px 3%;
+	border-top-right-radius: 30px;
+}
+.quote:hover{
+	background-color: darkslateblue;
+}
+
+.intro{
+	font-family: 'Roboto Condensed', sans-serif;
+font-size: 1.1rem;
+	display: block;
+line-height: 1.3;
+}
+.more{
+	font-family: 'Open Sans', sans-serif;
+	font-size: 0rem;
+	display: block;
+line-height: 1.3;
+
+}
+.quote:hover .more{
+	font-size: 1rem;
+}
+footer{
+    background-color:rgb(0,125,155);
+    padding: 20px 0;
+    font-size: 1.2rem;
+    font-weight: 300;
+    font-style: normal;
+    font-family: 'Open Sans', sans-serif;
+    color: rgb(255,255,255);
+}
+footer p{
+    margin-bottom: 0;
+    padding-top: 5px;
+    color:  rgb(255,255,255);
+}
+.phone{
+    font-size: 1.5rem;
+    color:rgb(238,240,138);
+    font-weight: 500;
+}
+
+footer p a{
+    color: rgb(238,240,138);
+    text-decoration: none;
+}
+footer p a:hover{
+  color: rgb(205,174,80); 
+}
+body{
+	position: relative;
+}
+.navbar-light .navbar-nav .navbar-item .navbar-link{
+	font-family: 'Roboto Condensed', sans-serif;
+	font-size:1.1rem;
+color: rgb(205,174,80);
+font-weight: 300;
+}
+.navbar-light .navbar-nav .navbar-item .navbar-link:hover{
+	color: rgb(111, 78 , 54);
+}
+.navbar-light .navbar-nav .navbar-item .navbar-link.active{
+	color: rgb(121, 51, 0);
+	border-bottom: 2px solid rgb(111, 78, 54);
+}
+.navbar-light .navbar-brand{
+	background-image: url(.../images/wisdompetlogo.svg);
+	background-repeat: no-repeat;
+	padding-left: 100px;
+	display: block;
+	font-weight: 300;
+	font-family: 'Open Sans', sans-serif;
+}
+.subhead{
+	display: block;
+	font-family: 'Roboto Condensed', sans-serif;
+	font-size:1.1rem;
+}
